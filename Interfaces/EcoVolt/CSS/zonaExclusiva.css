@@ -70,16 +70,16 @@ body {
   font-size: 40px;
 }
 
-.contenedor_tabla{
+.contenedor_tabla {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  gap: 5%;
+  gap: 2%;
 }
 
-.grafico2{
-  width: 50%;
+.grafico2 {
+  width: 49%;
 }
 
 .grafico2 img {
@@ -87,39 +87,36 @@ body {
 }
 
 .table-container {
-  width: 100%;
-  max-width: 800px;
-  overflow: hidden;
+  width: 49%;
 }
 
 table {
   width: 100%;
-  border-collapse: collapse;
 }
 
 th,
 td {
-  padding: 1.5rem;
+  padding: 0.5rem;
   text-align: left;
-  border-bottom: 1px solid #0E0E0E !important;
 }
 
 th {
   font-weight: 600;
   font-size: 0.95rem;
+  border-bottom: 1px solid #737373 !important;
 }
 
 td {
   font-size: 0.95rem;
 }
 
-.contenedor_factura{
+.contenedor_factura {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.factura_mensual{
+.factura_mensual {
   background-color: #376342;
   border-radius: 25px;
   padding: 25px 50px;
@@ -129,43 +126,135 @@ td {
   margin-bottom: 5%;
 }
 
-.factura_info{
-  width: 500px;
+.factura_info {
+  width: 80%;
 }
 
-.factura_titulo{
+.factura_titulo {
   display: flex;
   justify-content: space-between;
   margin-bottom: 2%;
 }
 
-.factura_titulo P{
+.factura_titulo p {
   font-size: 20px;
 }
 
-.contenedor_placas{
-  align-items: center;
+.contenedor_placas {
+  align-items: end;
 }
 
-.placas_info{
+.placas_info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  gap: 6%;
+  margin-bottom: 5%;
+
+}
+
+.placas_texto {
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img_info {
+  width: 47%;
+  display: flex;
+  justify-content: end;
+}
+
+.img_info img {
+  width: 100%;
+}
+
+.contenedor_contacto_texto_principal {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   margin-top: 2%;
 }
 
-.placas_info{
-  display: flex;
-  justify-content: space-between;
+.contenedor_contacto_texto_principal2 {
   width: 70%;
+  text-align: center;
 }
 
-.placas_info img{
-  width: 500px;
+.contenedor_contacto_texto {
+  display: flex;
+  justify-content: center;
+  gap: 6%;
+  margin-top: 1%;
+  margin-bottom: 2%;
 }
 
-.placas_texto{
-  width: 600px;
+.contenedores_texto {
+  width: 20%;
 }
 
-/* --- Responsive --- */
+.contenedor_contacto_texto img {
+  width: 40%;
+}
+
+.contenedor_contacto_texto_boton {
+  display: flex;
+  border: none;
+  border-radius: 25px;
+  background-color: #0E0E0E;
+  color: #D9D9D9;
+  padding: 10px 20px;
+  gap: 10px;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  margin: 0px !important;
+}
+
+.contenedor_contacto_texto_boton p {
+  margin: 0;
+}
+
+.contenedor_contacto_texto_boton img {
+  width: 20px;
+  height: 20px;
+  transition: transform 1s ease;
+}
+
+.contenedor_contacto_texto_boton:hover img {
+  transform: rotate(25deg);
+}
+
+@media (max-width: 1300px){
+  .factura_mensual{
+    width: 80%;
+  }
+
+  .factura_titulo p{
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 991px){
+  .h1_zonaExclusiva{
+    font-size: 40px;
+  }
+
+  .contenedor_tabla{
+    flex-direction: column;
+  }
+
+  .grafico2{
+    width: 75%;
+  }
+
+  .table-container{
+    width: 100%;
+  }
+}
+
+
 @media (max-width: 700px) {
 
   table,
