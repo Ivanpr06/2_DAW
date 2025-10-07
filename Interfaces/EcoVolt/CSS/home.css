@@ -49,7 +49,6 @@ body {
   color: #0E0E0E !important;
 }
 
-/* Quitar efectos hover del toggle */
 .navbar-toggler:hover,
 .navbar-toggler:focus,
 .navbar-toggler:active {
@@ -74,6 +73,27 @@ body {
 
 .parte_principal_parte1 h2 {
   font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.parte_principal_parte1{
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  width: 60%;
+}
+
+.parte_principal_parte2{
+  display: flex;
+  justify-content: end;
+    width: 40%;
+
+}
+
+.parte_principal_parte1 h1 {
+  font-size: 70px;
   padding-top:2.5%;
 }
 
@@ -100,18 +120,124 @@ body {
   width: 50%;
 }
 
-.parte_principal_img{
-  width: 100%;
-  height: 280px;
-}
-
-.parte_principal_parte2 {
-  display: flex;
-  justify-content: end;
-  width: 35%;
+.parte_principal_img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;    
 }
 
 .parte_principal_parte2 video {
-  height: 50%;
+  width: 575px;
+}
+
+
+@media (max-width:1684px){
+  .parte_principal_parte1 h1 {
+  font-size: 60px;
+  padding-top:2.5%;
+}
+
+  .parte_principal_parte2 video {
+  width: 515px;
+}
+
+}
+
+@media (max-width:1500px){
+  .parte_principal_parte1 h1 {
+  font-size: 50px;
+}
+
+  .parte_principal_parte2 video {
+  width: 450px;
+}
+
+}
+
+@media (max-width:1300px){
+  .parte_principal_parte1 h1 {
+  font-size: 40px;
+}
+
+  .parte_principal_parte2 video {
+  width: 400px;
+}
+
+}
+
+@media (max-width:1150px){
+  .parte_principal_parte1 h1 {
+  font-size: 30px;
+}
+
+  .parte_principal_parte2 video {
+  width: 350px;
+}
+
+}
+
+@media (max-width: 992px){
+  .parte_principal_parte1 {
+  width: 100%;
+  }
+
+  .parte_principal_parte1 h1 {
+  font-size: 50px;
+}
+
+  .parte_principal_parte2  {
+  display: none;
+}
+
+  .parte_principal_texto2 p, .parte_principal_texto1 p{
+    margin: 0.25rem;
+}
+
+}
+
+@media (max-width: 650px){
+  .parte_principal_parte1 h1 {
+  font-size: 40px;
+}
+
+  .parte_principal_texto1{
+    width: 60%;
+  }
+
+  .parte_principal_texto2{
+    width: 40%;
+  }
+
+}
+
+@media (max-width: 500px){
+  .parte_principal_parte1 h1 {
+  font-size: 30px;
+}
+
+  .parte_principal_texto1{
+    width: 70%;
+  }
+
+  .parte_principal_texto2{
+    width: 30%;
+  }
+
+  .parte_principal_texto2 p, .parte_principal_texto1 p{
+  font-size: x-small;
+  margin: 0.1rem ;
+}
+}
+
+@media (max-width: 400px){
+  .parte_principal_parte1 h1 {
+  font-size: 30px;
+}
+  .parte_principal_texto2 p, .parte_principal_texto1 p{
+  font-size: xx-small;
+  margin: 0.1rem ;
+}
+
+
 }
 
