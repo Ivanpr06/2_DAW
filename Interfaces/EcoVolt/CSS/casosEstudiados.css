@@ -242,10 +242,6 @@ p {
     .casos_h1 {
         font-size: 25px;
     }
-    
-    .casos_texto_p{
-        
-    }
 }
 
 @media (max-width:420px) {
