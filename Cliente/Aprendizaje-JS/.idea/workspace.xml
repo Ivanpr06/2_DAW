@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e08a23a-eb0a-4bbe-a323-1158587758c3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sintaxis de lenguajes/Ej-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sintaxis de lenguajes/Ej-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sintaxis de lenguajes/Ej-1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Sintaxis de lenguajes/Ej-1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sintaxis de lenguajes/Ej-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sintaxis de lenguajes/Ej-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sintaxis de lenguajes/Ej-3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sintaxis de lenguajes/Ej-3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Interfaces/EcoVolt/CSS/casosEstudiados.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interfaces/EcoVolt/CSS/casosEstudiados.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Interfaces/EcoVolt/HTML/casosEstudiados.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interfaces/EcoVolt/HTML/casosEstudiados.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Interfaces/EcoVolt/HTML/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interfaces/EcoVolt/HTML/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Interfaces/EcoVolt/HTML/productos.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interfaces/EcoVolt/HTML/productos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Interfaces/EcoVolt/HTML/prueba.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Interfaces/EcoVolt/HTML/zonaExclusiva.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interfaces/EcoVolt/HTML/zonaExclusiva.html" afterDir="false" />
-    </list>
+    <list default="true" id="1e08a23a-eb0a-4bbe-a323-1158587758c3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +63,7 @@
       <workItem from="1760016136937" duration="9288000" />
       <workItem from="1760105537929" duration="9430000" />
       <workItem from="1760119184376" duration="3461000" />
-      <workItem from="1760461268163" duration="1992000" />
+      <workItem from="1760461268163" duration="2391000" />
     </task>
     <servers />
   </component>

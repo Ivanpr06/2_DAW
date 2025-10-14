@@ -1,3 +1,6 @@
+// Iván Ponti Rubio
+// 2º DAW
+
 function asteriscos(){
     // Obtener el valor del input
     let input = document.querySelector('.inputEj').value.trim();
