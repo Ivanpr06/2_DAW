@@ -194,8 +194,12 @@ td {
   width: 20%;
 }
 
-.contenedor_contacto_texto img {
+.contenedor_contacto_img {
   width: 40%;
+}
+
+.contenedor_contacto_img img {
+  width: 100%;
 }
 
 .contenedor_contacto_texto_boton {
@@ -253,6 +257,17 @@ td {
     width: 100%;
   }
 }
+
+@media (max-width: 870px){
+  .factura_titulo p{
+    font-size: 12px;
+  }
+
+  .contenedor_contacto p{
+    font-size: 12.5px;
+  }
+}
+
 
 
 @media (max-width: 700px) {
