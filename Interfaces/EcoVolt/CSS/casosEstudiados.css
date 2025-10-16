@@ -31,15 +31,18 @@ body {
 
 .logo_navbar_text {
     align-content: center;
+    font-size: 2.5rem;
 }
 
 .logo_navbar_img {
-    width: 3.5rem;
+    width: 6rem;
 }
 
 .navbar_opciones {
     color: #737373;
     transition: color 0.25s;
+    font-size: 1.5rem !important;
+    margin-left: 10px;
 }
 
 .navbar_opciones:hover {
@@ -55,19 +58,85 @@ body {
     border-color: inherit !important;
 }
 
+.smooth-toggler {
+    padding: 6px 8px;
+    transition: all 0.3s ease;
+}
+
+.icon-wrapper {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: all 0.3s ease;
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+}
+
+.smooth-toggler:hover .menu-image {
+    transform: scale(1.1);
+}
+
+.menu-image.closing {
+    opacity: 0;
+    transform: scale(0.8) rotate(-90deg);
+}
+
+.menu-image.opening {
+    opacity: 0;
+    transform: scale(0.8) rotate(90deg);
+}
+
+@media (max-width: 1350px) {
+
+    .logo_navbar_text {
+        font-size: 2rem;
+    }
+
+    .logo_navbar_img {
+        width: 5rem;
+    }
+
+    .navbar_opciones {
+        font-size: 1.25rem !important;
+    } 
+}
+
+@media (max-width: 1130px) {
+    .logo_navbar_text {
+        font-size: 1.5rem;
+    }
+
+    .logo_navbar_img {
+        width: 4rem;
+    }
+
+    .navbar_opciones {
+        font-size: 1rem !important;
+    } 
+}
+
 /* Contenido */
 
 img {
     width: 100%;
+    margin-top: 1%;
 }
 
 p {
-    font-size: 20px !important;
+    font-size: 35px !important;
     margin-bottom: 0rem !important;
 }
 
 .casos_h1 {
-    font-size: 70px;
+    font-size: 100px;
     margin-top: 2%;
     margin-bottom: 5%;
 }
@@ -97,7 +166,7 @@ p {
 }
 
 .casos_texto_datos_unico p {
-    font-size: 15px !important;
+    font-size: 25px !important;
     padding: 2%;
 }
 
@@ -144,7 +213,48 @@ p {
 }
 
 .casos_ejemplos_p h3 {
-    font-size: 35px;
+    font-size: 45px;
+    font-weight: semi-bold;
+    margin-bottom: 2%;
+}
+
+@media (max-width:2100px) {
+    p {
+        font-size: 30px !important;
+    }
+}
+
+@media (max-width:1650px) {
+    p {
+        font-size: 25px !important;
+    }
+
+    .casos_h1 {
+        font-size: 80px;
+    }
+
+    .casos_ejemplos_p h3 {
+        font-size: 40px;
+    }
+
+    .casos_texto_datos_unico p {
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width:1400px) {
+    p {
+        font-size: 20px !important;
+    }
+
+    .casos_h1 {
+        font-size: 70px;
+    }
+
+    .casos_ejemplos_p h3 {
+        font-size: 35px;
+    }
+    
 }
 
 @media (max-width:1150px) {
@@ -153,11 +263,15 @@ p {
     }
 
     .casos_ejemplos_p p {
-        font-size: 15px !important;
+        font-size: 12.5px !important;
     }
 
     .casos_ejemplos_p h3 {
         font-size: 30px;
+    }
+
+    .casos_texto_datos_unico p {
+        font-size: 15px !important;
     }
 }
 
