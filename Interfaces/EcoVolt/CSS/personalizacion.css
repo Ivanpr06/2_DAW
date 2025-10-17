@@ -133,7 +133,7 @@ body {
     font-size: 40px;
     margin-top: 1%;
     margin-bottom: 3%;
-    width: 90%;
+    width: 60%;
 }
 
 .parent {
@@ -366,6 +366,10 @@ a.btn_volver:hover .flecha_inicioSesion {
     background-color: white;
     margin-right: 8px;
     position: relative;
+}
+
+.checkbox-wrapper p{
+    margin: 0;
 }
 
 .custom-checkbox::after {
