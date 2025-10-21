@@ -28,10 +28,12 @@
                             <h3 class="logo_navbar_text">EcoVolt</h3>
                         </div>
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    <button class="navbar-toggler border-0 smooth-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        aria-expanded="false" aria-label="Toggle navigation" onclick="toggleMenuIcon(this)">
+                        <div class="icon-wrapper">
+                            <img id="menuIcon" src="../Img/toggle.png" alt="Menu" class="menu-image">
+                        </div>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -45,7 +47,7 @@
                                 <a class="nav-link navbar_opciones" href="./personalizacion.html">Personalización</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link navbar_opciones" href="#">Sobre Nosotros</a>
+                                <a class="nav-link navbar_opciones" href="./sobreNosotros.html">Sobre Nosotros</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link navbar_opciones" href="./inicioSesion.html">Zona Exclusiva</a>
@@ -59,7 +61,7 @@
 
     <main>
         <!--Parte Principal-->
-        <div>
+        <div class="home">
             <div class="parte_principal">
                 <div class="parte_principal_parte1">
                     <h1>Decoración y energía solar, unidos para un futuro mejor.</h1>
@@ -86,6 +88,84 @@
                 <div class="parte_principal_parte2">
                     <video src="../Img/videohome.mp4" loop="true" autoplay muted></video>
                 </div>
+            </div>
+
+            <div class="parte_cliente">
+                <div class="cliente_texto">
+                    <h4>Clientes</h4>
+                    <p>Más de 4 años colaborando con las mejores empresas para<br> poducir energía renovable y
+                        contribiur a salvar el planeta</p>
+                </div>
+                <div class="carusel_empresas">
+                    <img class="carusel_empresas_img1" src="../Img/Imagina Energía.png" alt="Imagina Energía">
+                    <img class="carusel_empresas_img2" src="../Img/Barbadillo.png" alt="Barbadillo">
+                    <img class="carusel_empresas_img2" src="../Img/DINOTEC.png" alt="DINOTEC">
+                    <img class="carusel_empresas_img2" src="../Img/Repsol.png" alt="Repsol">
+                    <img class="carusel_empresas_img2" src="../Img/Gonzales-Byass.png" alt="Gonzales-Byass">
+                    <img class="carusel_empresas_img1" src="../Img/Williams & Humbert.png" alt="Williams & Humbert">
+                </div>
+            </div>
+
+            <div class="carusel_fotos">
+                <div class="carusel_fotos_exposicion">
+                    <img class="carusel_fotos_img1" src="../Img/home3.jpeg" alt="home3">
+                    <img class="carusel_fotos_img2" src="../Img/home4.jpeg" alt="home4">
+                    <img class="carusel_fotos_img3" src="../Img/home5.jpeg" alt="home5">
+                    <img class="carusel_fotos_img4" src="../Img/home6.jpeg" alt="home6">
+                </div>
+                <div class="carusel_fotos_texto">
+                    <div class="carusel_fotos_texto1">
+                        <h1>Decoración Verde</h1>
+                    </div>
+                    <div class="carusel_fotos_texto2">
+                        <p>Que la contaminación no te impida crear la casa de tus sueños</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carusel_productos">
+                <div class="cliente_texto">
+                    <h4>Nuestros Productos</h4>
+                </div>
+                <div class="productos_texto">
+                    <h1>Disfruta de la maxima calidad y personalización</h1>
+                </div>
+                <div class="carusel_producto_exposicion">
+                    <div class="carusel_producto_exposicion_ejemplo">
+                        <div class="carusel_producto_exposicion_texto">
+                            <h5>Monocristalinos</h5>
+                            <img src="../Img/flecha.png" alt="flecha">
+                        </div>
+                        <div class="carusel_producto_exposicion_img">
+                            <img src="../Img/home7.jpeg" alt="home7">
+                        </div>
+                    </div>
+
+                    <div class="carusel_producto_exposicion_ejemplo">
+                        <div class="carusel_producto_exposicion_texto">
+                            <h5>Policristalinos</h5>
+                            <img src="../Img/flecha.png" alt="flecha">
+                        </div>
+                        <img src="../Img/home8.jpeg" alt="home8">
+                    </div>
+
+                    <div class="carusel_producto_exposicion_ejemplo">
+                        <div class="carusel_producto_exposicion_texto">
+                            <h5>Thin-Film</h5>
+                            <img src="../Img/flecha.png" alt="flecha">
+                        </div>
+                        <img src="../Img/home9.jpeg" alt="home9">
+                    </div>
+
+                    <div class="carusel_producto_exposicion_ejemplo">
+                        <div class="carusel_producto_exposicion_texto">
+                            <h5>Bifaciales</h5>
+                            <img src="../Img/flecha.png" alt="flecha">
+                        </div>
+                        <img src="../Img/home10.jpeg" alt="home10">
+                    </div>
+                </div>
+
             </div>
 
         </div>
