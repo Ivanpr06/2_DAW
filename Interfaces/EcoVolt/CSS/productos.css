@@ -13,14 +13,14 @@
 body {
     background-color: #D9D9D9 !important;
     color: #0E0E0E;
-    padding-left: 5%;
-    padding-right: 5%;
     margin: 0;
 }
 
 /* Navbar */
 .navbar_body {
     background-color: #D9D9D9 !important;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .header_logo {
@@ -124,6 +124,11 @@ body {
 }
 
 /* Contenido */
+
+.productos {
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
 .productos_h1 {
     font-size: 100px;
@@ -329,5 +334,119 @@ p {
 
     .productos_caracteristicas h3 {
         margin: 0;
+    }
+}
+
+/* Footer */
+.footer {
+    background-color: #A0A0A0;
+    color: #D9D9D9;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.footerLogo {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    width: 40%;
+    align-items: center;
+}
+
+.footerLogo img {
+    width: 250px;
+}
+
+.footerLogo h1 {
+    font-size: 125px;
+    text-align: center;
+}
+
+.footerTexto {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.footerdescripcion p {
+    text-align: left !important;
+    font-size: 25px !important;
+    font-family: 'Courier New', Courier, monospace !important;
+    margin: 0;
+}
+
+@media (max-width: 1800px) {
+    .footerLogo h1 {
+        font-size: 100px;
+    }
+
+    .footerLogo img {
+        width: 225px;
+    }
+
+    .footerdescripcion p {
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width: 1300px) {
+    .footerLogo h1 {
+        font-size: 70px;
+    }
+
+    .footerLogo img {
+        width: 175px;
+    }
+
+    .footerdescripcion p {
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .footer {
+        display: block;
+    }
+
+    .footerLogo {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footerTexto {
+        width: 100%;
+        margin-top: 2%;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 500px) {
+    .footerLogo h1 {
+        font-size: 50px;
+    }
+
+    .footerLogo img {
+        width: 125px;
+    }
+
+    .footerdescripcion p {
+        font-size: 10px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .footerLogo h1 {
+        font-size: 40px;
+    }
+
+    .footerLogo img {
+        width: 100px;
+    }
+
+    .footerdescripcion p {
+        font-size: 7.5px !important;
     }
 }

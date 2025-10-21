@@ -28,10 +28,12 @@
               <h3 class="logo_navbar_text">EcoVolt</h3>
             </div>
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          <button class="navbar-toggler border-0 smooth-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            aria-label="Toggle navigation" onclick="toggleMenuIcon(this)">
+            <div class="icon-wrapper">
+              <img id="menuIcon" src="../Img/toggle.png" alt="Menu" class="menu-image">
+            </div>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -42,10 +44,10 @@
                 <a class="nav-link navbar_opciones" href="#">Casos Estudiados</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link navbar_opciones" href="#">Personalización</a>
+                <a class="nav-link navbar_opciones" href="./personalizacion.html">Personalización</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link navbar_opciones" href="#">Sobre Nosotros</a>
+                <a class="nav-link navbar_opciones" href="./sobreNosotros.html">Sobre Nosotros</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link navbar_opciones" href="./inicioSesion.html">Zona Exclusiva</a>
@@ -56,10 +58,15 @@
       </nav>
     </div>
   </header>
+  <!--Main-->
   <main>
-    <div>
+    <div class="zonaExclusiva">
       <h1 class="h1_zonaExclusiva">Bienvenido Iván</h1>
-      <img class="grafico1" src="../Img/zonaExclusiva_grafica1.png" alt="grafica1">
+      <div class="zonaExclusiva_grafico">
+        <div class="grafico1">
+          <img src="../Img/zonaExclusiva_grafica1.png" alt="grafica1">
+        </div>
+      </div>
       <h2 class="h2_zonaExclusiva">Energia Consumida</h2>
 
       <div class="contenedor_tabla">
@@ -202,7 +209,7 @@
         <div class="contenedor_contacto_texto_principal">
           <div class="contenedor_contacto_texto_principal2">
             <p>En EcoVolt estamos disponibles las 24 horas del día, los 7 días de la semana para atender tus consultas y
-              ayudarte a dar el paso hacia la energía solar.<br>
+              ayudarte a dar el paso hacia la energía solar.
               Ya sea que necesites información sobre nuestros paneles solares, asesoramiento personalizado o soporte
               técnico, nuestro equipo estará siempre listo para responderte.</p>
           </div>
@@ -223,7 +230,7 @@
           <div class="contenedores_texto" style="text-align: end;">
             <h3>Habla Con Nosotros</h3>
             <p>Para problemas inmediatos acceda a nuestro chat donde se le responderá sus dudas al instante</p>
-            <div style="align-items: end;">
+            <div class="contenedor_contacto_boton">
               <button class="contenedor_contacto_texto_boton">
                 <p>Chat</p>
                 <img src="../Img/chat.png" alt="chat">
@@ -235,9 +242,37 @@
     </div>
   </main>
 
+  <!--Footer-->
+  <footer>
+    <div class="footer">
+      <div class="footerLogo">
+        <img src="../Img/logo2.png" alt="logo">
+        <h1>EcoVolt</h1>
+      </div>
+      <div class="footerTexto">
+        <div class="footerdescripcion">
+          <p>Instagram</p>
+          <p>Linkedin</p>
+          <p>Facebook</p>
+        </div>
+        <div class="footerdescripcion">
+          <p>España</p>
+          <p>Sevilla</p>
+          <p>+34 912 345 678</p>
+        </div>
+        <div class="footerdescripcion">
+          <p>España</p>
+          <p>Madrid</p>
+          <p>+34 611 234 567</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
+  <script src="../JS/navbar.js"></script>
 </body>
 
 </html>
